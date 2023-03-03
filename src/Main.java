@@ -49,7 +49,8 @@ public class Main {
         for (int j : arr) {
             sumSpending += j;
         }
-        midSpending = sumSpending / 30;
+        midSpending = sumSpending / arr.length;
         System.out.println("Средняя сумма трат за месяц составила " + midSpending + " рублей.");
     }
+
 }
