@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
         task1();
@@ -47,7 +45,7 @@ public class Main {
     public static void task3() {
         System.out.println("Задача 3");
         int[] arr = generateRandomArray();
-        double midSpending = 0;
+        double midSpending;
         int sumSpending = 0;
         for (int j : arr) {
             sumSpending += j;
